@@ -1,7 +1,7 @@
 // importar conexão do banco
 const { Pool } = require('pg');
 
-const dotenv = require('dotenv');
+const dotenv = require('dotenv'); //configurar as variaveis do ambiente (developmente, ou test, ou production)
 dotenv.config();
 
 const pool = new Pool(
